@@ -9381,7 +9381,7 @@ if (response_data.name != vars.get(&quot;app_specific_username&quot;)) {
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">jiraId</stringProp>
-                      <stringProp name="Argument.value">AANES-487</stringProp>
+                      <stringProp name="Argument.value">AANES-502</stringProp>
                     </elementProp>
                     <elementProp name="baseUrl" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
@@ -9436,7 +9436,7 @@ if (response_data.name != vars.get(&quot;app_specific_username&quot;)) {
                 <stringProp name="HTTPSampler.port"></stringProp>
                 <stringProp name="HTTPSampler.protocol"></stringProp>
                 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${application.postfix}/rest/api/2/issue/AANES-487/comment</stringProp>
+                <stringProp name="HTTPSampler.path">${application.postfix}/rest/api/2/issue/AANES-502/comment</stringProp>
                 <stringProp name="HTTPSampler.method">POST</stringProp>
                 <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
                 <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -9459,7 +9459,7 @@ if (response_data.name != vars.get(&quot;app_specific_username&quot;)) {
                     </elementProp>
                     <elementProp name="" elementType="Header">
                       <stringProp name="Header.name">Referer</stringProp>
-                      <stringProp name="Header.value">http://acd20fd9f8c40454a978bd36b12e6265-138936660.us-east-2.elb.amazonaws.com/jira/browse/AANES-487</stringProp>
+                      <stringProp name="Header.value">http://aced12f7b6abb4f80a19f31200acfe34-901898259.us-east-2.elb.amazonaws.com/jira/browse/AANES-502</stringProp>
                     </elementProp>
                   </collectionProp>
                 </HeaderManager>
